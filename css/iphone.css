@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+
+/*SECTION MAIN*/
+#main .main-head{
+    font-size: 1rem;
+}
+
+/*SECTION SERVICES*/
+#services .services-container{
+    height: 680px;
+    width: 100%;
+}
+#services .services-container .box{
+    width: 300px;
+    font-size: 15px ;
+}
+
+/*SECTION DISHES*/
+#dishes .dishes-container{
+    height: 680px;
+    width: 100%;
+}
+#dishes .dishes-container .box{
+    width: 300px;
+    font-size: 15px ;
+}
