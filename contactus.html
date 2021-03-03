@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.MFoodFactory.com/contact</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #contact{
+    height: 100vh; width: 100%;
+    background: url("/images/bg3.jpg") no-repeat center center/cover;
+    transition: 1s;
+}
+#contact .contact-tophead{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+#contact .contact-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#contact .contact-container input ,
+#contact .contact-container textarea{
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px;
+}
+#contact .contact-container input:hover ,
+#contact .contact-container textarea:hover{
+    border: 2px solid red;
+}
+#contact .contact-container textarea{
+    height: 150px;
+}
+#contact .contact-container .submitbtn{
+    height: 30px; width: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 0px;
+}
+#contact .contact-container .submitbtn:hover{
+    border: 2px solid rgb(0, 255, 0) ;
+    color: rgb(0, 255, 0);
+    background-color: black;
+}
+@media screen and (max-width:804px) {
+    #contact .contact-container input ,
+#contact .contact-container textarea{
+    width: 80%;
+    ;
+}
+#contact .contact-container{
+    margin-left: 30px;
+}
+}
+    </style>    
+</head>
+<body>
+    <section id="contact">
+        <div class="contact-tophead"><h1>Contactus</h1></div>
+        <div class="contact-container">
+            <form action="index.php">
+                <div class="form-group"><label>Enter your Name:</label><input type="text" placeholder="enter your name">
+                </div>
+                <div class="form-group"><label>Enter your E-mail:</label><input type="email"
+                        placeholder="enter your email"></div>
+                <div class="form-group"> <label>Enter your Phone:</label><input type="number"
+                        placeholder="enter your phone"></div>
+                <label>Write Your Message:</label>
+                <textarea name="message" placeholder="enter your message"></textarea>
+                <input type="submit" name="submit" class="submitbtn">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

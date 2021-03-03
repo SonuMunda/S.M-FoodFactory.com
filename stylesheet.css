@@ -1,0 +1,225 @@
+*{margin: 0; padding: 0;}
+hr{
+    height: 4px;
+}
+.navbar{
+    height: 60px; width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar::before{
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 100%; width: 100%;
+    z-index: -1;
+    opacity: 0.30;
+}
+.navbar .logo img{
+    height: 60px;
+}
+.navbar .bars{
+    font-size: 25px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+.navbar .closebtn{
+    font-size: 25px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+.navbar .navlinks{
+    margin-right: 10px;
+}
+.navbar .navlinks ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 4px;
+    padding: 4px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    background-color: rgb(211, 211, 211);
+    color: #000;
+}
+/*section main*/
+
+#main{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/images/bg1.jpg") no-repeat center center/cover;
+}
+#main .main-head{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    color:#f8ff01;
+}
+#main .orderbtn{
+    margin: 5px;
+    padding: 10px;
+}
+#main .orderbtn button{
+    height: 35px; width: 100px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+#main .orderbtn button:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid cyan;
+    color: cyan;
+}
+/*section services*/
+#services{
+    height: 480px; width: 100%;
+    background-color: coral;
+}
+#services img{
+    height: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#services .services-tophead{
+    padding-top: 35px;
+    text-align: center;
+}
+#services .services-container{
+    height: 400; width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services .services-container .box{
+    background-color: rgb(228, 228, 228);
+    border: 2px solid brown;
+    border-radius: 8px;
+    height: 300px;
+    padding: 2px; margin: 8px;
+}
+#services .services-container .box .services-head {
+text-align: center;
+}
+#services .services-container .box .services-lines{
+    text-align: center;
+}
+/*Section Dishes*/
+#dishes{
+    height: 480px; width: 100%;
+    background: url("/images/bg2.jpg") no-repeat center center/cover;
+}
+
+#dishes img{
+    height: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#dishes .dishes-tophead{
+    padding-top: 35px;
+    text-align: center;
+}
+#dishes .dishes-container{
+    height: 400px; width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#dishes .dishes-container .box{
+    background-color: rgb(228, 228, 228);
+    border: 2px solid brown;
+    border-radius: 8px;
+    height: 300px;
+    padding: 2px; margin: 8px;
+}
+
+#dishes .dishes-container .box .dishses-head{
+    text-align: center;
+}
+/*Section Clients*/
+#clients{
+    height: 300px; width: 100%;
+    background-color: rgb(255, 0, 85);
+}
+#clients .clients-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clients .clients-container img{
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+}
+#clients .clients-tophead{
+    text-align: center;
+    padding: 20px;
+} 
+
+/*Section Contact*/
+#contact{
+    height: 450px; width: 100%;
+    background: url("/images/bg3.jpg") no-repeat center center/cover;
+    transition: 1s;
+}
+#contact .contact-tophead{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+#contact .contact-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#contact .contact-container input ,
+#contact .contact-container textarea{
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px;
+}
+#contact .contact-container input:hover ,
+#contact .contact-container textarea:hover{
+    border: 2px solid red;
+}
+#contact .contact-container textarea{
+    height: 150px;
+}
+#contact .contact-container .submitbtn{
+    height: 30px; width: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 0px;
+}
+#contact .contact-container .submitbtn:hover{
+    border: 2px solid rgb(0, 255, 0) ;
+    color: rgb(0, 255, 0);
+    background-color: black;
+}
+

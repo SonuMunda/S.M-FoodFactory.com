@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.M FoodFactory.com</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" media="screen and (max-width:804px)" href="phone.css">
+    <link rel="stylesheet" media="screen
+    and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)"  href="iphone.css"> 
+    <script src="/js/menufunction.js"></script>
+</head>
+
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo.png"></div>
+        <div class="bars" onclick="openmenu()">&#9776;</div>
+        <div class="closebtn" onclick="closemenu()" id="close-menu">&times;</div>
+        <div class="navlinks" id="menu">
+            <ul class="unorderlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html" target="_blank">Aboutus</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="blogs.html" target="_blank">Blogs</a></li>
+                <li><a href="menu.html"dd target="_blank">Menu</a></li>
+                <li><a href="#contact"dd target="_blank">Contactus</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="main">
+      <h1 class="main-head">We Cater to your Good Taste!</h1>
+        <div class="orderbtn"><button>OrderNow</button></div>
+    </section>
+    <hr>
+    <section id="services">
+        <div class="services-tophead"><h1>Our Services</h1></div>
+        <div class="services-container">
+            <div class="box">
+                <img src="images/coffee.png">
+                <h1 class="services-head">TEA</h1>
+                <p class="seevices-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+            <div class="box">
+                <img src="images/fast.jpeg">
+                <h1 class="services-head">BREAKFAST</h1>
+                <p class="seevices-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+            <div class="box">
+                <img src="images/lunch.jpg">
+                <h1 class="services-head">LUNCH</h1>
+                <p class="seevices-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="dishes">
+        <div class="dishes-tophead"><h1>Famous Dishes</h1></div>
+        <div class="dishes-container">
+            <div class="box">
+                <img src="images/pop1.jpeg">
+                <h1 class="dishses-head">Paneer Tikka</h1>
+                <p class="dishes-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+            <div class="box">
+                <img src="images/pop2.jpg">
+                <h1 class="dishses-head">Tanduri Chicken</h1>
+                <p class="dishes-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+            <div class="box">
+                <img src="images/pop3.jpeg">
+                <h1 class="dishses-head">Tanduri Naan</h1>
+                <p class="dishes-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolore, saepe velit at, fugit blanditiis tempora eveniet quia ipsam obcaecati minima ullam cupiditate pariatur a rerum! Perferendis numquam in possimus.</p>
+            </div>
+        </div>   
+    </section>
+    <hr>
+    <section id="clients">
+        <div class="clients-tophead">
+            <h1>Our Clients</h1>
+        </div>
+        <div class="clients-container">
+            <img src="images/c1.png"> 
+            <img src="images/c2.png">
+            <img src="images/c3.jpeg">
+            <img src="images/c4.png">
+            <img src="images/c5.png">
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <div class="contact-tophead"><h1>Contactus</h1></div>
+        <div class="contact-container">
+            <form action="index.php">
+                <div class="form-group"><label>Enter your Name:</label><input type="text" placeholder="enter your name">
+                </div>
+                <div class="form-group"><label>Enter your E-mail:</label><input type="email"
+                        placeholder="enter your email"></div>
+                <div class="form-group"> <label>Enter your Phone:</label><input type="number"
+                        placeholder="enter your phone"></div>
+                <label>Write Your Message:</label>
+                <textarea name="message" placeholder="enter your message"></textarea>
+                <input type="submit" name="submit" class="submitbtn">
+            </form>
+        </div>
+    </section>
+    <footer align="center">S.M FoodFactory.com &copy; 2021 by SonuMunda</footer>
+</body>
+</html>
